@@ -15,6 +15,6 @@ echo <<<php
 	<h1>{$h1}</h1>
 	<p>$date</p>
 </body>
-</html>"
+</html>
 php;
 ?>
