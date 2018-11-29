@@ -4,7 +4,8 @@ $h1 = "My first php file";
 $date = date("Y");
 
 
-echo "<!DOCTYPE html>
+echo <<<php
+<!DOCTYPE html>
 <html lang='en'>
 <head>
 	<meta charset='UTF-8'>
@@ -15,4 +16,5 @@ echo "<!DOCTYPE html>
 	<p>$date</p>
 </body>
 </html>"
+php;
 ?>
